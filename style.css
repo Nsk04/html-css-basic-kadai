@@ -59,6 +59,7 @@ main{
   flex-basis: 70%;
 }
 
+
 h2{
   font-size: 25px;
   border-bottom: dotted 3px rgb(236,122,122);
@@ -69,7 +70,7 @@ h2::before{
   color: rgb(239,111,139);
 }
 
-p::first-letter{
+.contents p:nth-child(3)::first-letter{
   font-weight: bold;
   color: rgb(97,206,249);
 }
